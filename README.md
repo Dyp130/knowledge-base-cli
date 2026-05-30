@@ -14,7 +14,7 @@ A personal knowledge base CLI with wiki-style links, tags, and full-text search.
 ## Installation
 
 ```bash
-npm install -g knowledge-base-cli
+npm install -g github:Dyp130/knowledge-base-cli
 ```
 
 ## Quick Start
