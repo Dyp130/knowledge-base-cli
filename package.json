@@ -1,9 +1,9 @@
 {
-  "name": "kb-cli",
+  "name": "knowledge-base-cli",
   "version": "1.0.0",
   "description": "A CLI personal knowledge base with wiki links, tags, and full-text search",
   "license": "MIT",
-  "author": "kb-cli contributors",
+  "author": "Dyp130",
   "keywords": [
     "knowledge-base",
     "notes",
