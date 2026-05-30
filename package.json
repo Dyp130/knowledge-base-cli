@@ -1,0 +1,51 @@
+{
+  "name": "kb-cli",
+  "version": "1.0.0",
+  "description": "A CLI personal knowledge base with wiki links, tags, and full-text search",
+  "license": "MIT",
+  "author": "kb-cli contributors",
+  "keywords": [
+    "knowledge-base",
+    "notes",
+    "cli",
+    "markdown",
+    "wiki",
+    "wiki-links",
+    "backlinks",
+    "zettelkasten",
+    "second-brain",
+    "tagging",
+    "full-text-search",
+    "daily-notes",
+    "productivity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dyp130/knowledge-base-cli"
+  },
+  "homepage": "https://github.com/Dyp130/knowledge-base-cli#readme",
+  "bugs": {
+    "url": "https://github.com/Dyp130/knowledge-base-cli/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "LICENSE",
+    "README.md"
+  ],
+  "main": "bin/kb.js",
+  "bin": {
+    "kb": "./bin/kb.js"
+  },
+  "scripts": {
+    "start": "node bin/kb.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "gray-matter": "^4.0.3"
+  }
+}
